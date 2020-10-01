@@ -28,5 +28,4 @@ const addUser = () => {
   userList.appendChild(element);
 };
 
-// Start the app!
 initApp();

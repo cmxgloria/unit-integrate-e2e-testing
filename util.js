@@ -19,7 +19,7 @@ exports.validateInput = (text, notEmpty, isNumber) => {
   if (notEmpty && text.trim().length === 0) {
     return false;
   }
-  if (isNumber && +text === NaN) {
+  if (isNumber && text === NaN) {
     return false;
   }
   return true;
